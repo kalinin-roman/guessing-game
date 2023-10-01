@@ -11,11 +11,9 @@ class GuessingGame {
         return Math.ceil((this.max + this.min) / 2);
     }
     greater() {
-        alert(this.min = this.guess())
         this.min = this.guess();
     }
     lower() {
-        alert(this.max = this.guess())
         this.max = this.guess();
     }
 }
